@@ -1,0 +1,38 @@
+.icon {
+    text-align: center;
+}
+
+.i {
+    font-size: 120px;
+    color: green;
+    margin-top: 10px;
+    transition: .5s;
+    margin-bottom: 5px;
+}
+
+.i:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.ll {
+    margin-bottom: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}

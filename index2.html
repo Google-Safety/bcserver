@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Payment</title>
+    <link rel="stylesheet" href="./script2.js">
+    <link rel="stylesheet" href="./style2.css">
+  </head>
+  <body>
+   
+
+    <div class="basket">
+        <p class="basket--txt text-light fw-bolder">Your Order Successful</p>
+        <button id="btn-go" class="basket--btn not-clicked" onclick="addOverlay()"> <a class="text-decoration-none text-black fw-bolder" href="./index4.html"> Payment</a></button>
+    </div>
+    
+    <div class="overlay not--shown" id="overlay">
+        <div class="checkout">
+            <button class="checkout--btn btn--back" id="btn-back" action="submit" onclick="removeOverlay()">Go Back</button>
+            <div class="checkout--details">
+                <p class="checkout--txt">2 items:</p>
+                <ul class="checkout--list">
+                    <li class="list--item">1x Red Apple.</li>
+                    <li class="list--item">1x Ripe Banana.</li>
+                </ul>
+                <p class="checkout--txt sub--total">Sub-total: $43.56</p>
+                <p class="checkout--txt  shipping">Shipping: $7</p>
+                <p class="checkout--txt  shipping">Total to Pay: $50.56</p>
+            </div>
+            <button class="checkout--btn btn--pay" id="btn-pay" action="submit" onclick="removeOverlay()">Go to Payment</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
